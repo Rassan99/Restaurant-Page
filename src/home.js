@@ -14,7 +14,8 @@ homeDiv.appendChild(familyImgeElement);
 homeDiv.appendChild(headerP);
 homeDiv.appendChild(contactP);
 homeDiv.appendChild(footer);
-// document.getElementById("myElement").classList.add("myClass")
+homeDiv.classList.add("homeDiv");
+familyImgeElement.classList.add("familyImg");
 let form = document.createElement("form");
 
 let inputName = document.createElement("input");
